@@ -1,0 +1,19 @@
+nav   a{
+	float: right;    /* effet flottant */
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	color: #ffffff; /* couleur du texte */
+	background-color: gray; /* couleur de fond */
+	height: 36px; /* hauteur */
+	line-height: 33px;  /* interligne */
+	padding: 0 10px; /* marges intérieur */
+	font-family: sans-serif; /* police d'écriture */
+	font-size: 13px; /* taille du texte */
+	}
+
+nav   a:hover{
+	background-color: rgb(170, 170, 170) ; /* couleur de fond -on pourrait aussi utiliser une image ou url */
+	}
+
+	img{
+		height: 200px;
+	}
