@@ -2,7 +2,7 @@ header{
 	display: flex;
 }
 
-nav   a{
+header.nav   a{
 	float: right;    /* effet flottant */
 	text-decoration: none; /* pas d'héritage avec effet souligné */
 	color: #ffffff; /* couleur du texte */
@@ -14,7 +14,7 @@ nav   a{
 	font-size: 13px; /* taille du texte */
 	}
 
-nav   a:hover{
+header.nav   a:hover{
 	background-color: rgb(170, 170, 170) ; /* couleur de fond -on pourrait aussi utiliser une image ou url */
 	}
 
