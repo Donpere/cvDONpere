@@ -23,11 +23,7 @@ html {
 	display:flex;
 	justify-content:space-between;
   }
-  
-  .logo {
-	display: inline-block;
-  }
-  
+
   .nav-links {
 /* supprime les points devant chaque mot de la liste */
 	list-style: none;
@@ -43,6 +39,11 @@ html {
 	text-decoration: none;
 	color: white;
   }
+  
+  .logo {
+	display: inline-block;
+  }
+  
   
   .nav-item:hover {
 	background-color: white;
